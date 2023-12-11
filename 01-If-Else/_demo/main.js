@@ -2,19 +2,22 @@
 // SYNTAX : if (condition) { code ที่ทำเมื่อ condition == true}
 // Condition : Boolean, Compare, Logical
 
-// Ex.1
+// ################################
+//  Ex.1
 // if (3 > 5) {
 //   // IF-Block
 //   console.log("It's true");
 // }
 
-// Ex.2
+// ################################
+//   Ex.2
 let studentPoint = 49; // Pass 50
 
 if (studentPoint >= 50) {
   console.log('You Passed');
 }
 
+// ################################
 // Ex.3 : Michelin Star (if - else if)
 // Syntax : else if (condition) { code }
 
@@ -38,6 +41,7 @@ if (star >= 2) {
 }
 */
 
+// ################################
 // Ex.4 : Michelin Star (if - else if - else )
 
 // Range 1,2,3
@@ -53,6 +57,7 @@ if (star >= 2) {
 //   console.log('Invalid Michelin Star');
 // }
 
+// ################################
 // Ex.5 : High Score
 
 // let userScore = 888;
@@ -64,6 +69,7 @@ if (star >= 2) {
 //   console.log('Thankyou');
 // }
 
+// ################################
 // Ex.6 : Syntactic Sugar ละปีกกา
 
 // let score = 70;
@@ -71,6 +77,7 @@ if (star >= 2) {
 // if (score > 80) console.log('Grade A');
 // else console.log('Below A');
 
+// ################################
 // Ex.7 : Nested Condition (Password Validation)
 
 // Required Password : len > 6 , no white space
@@ -104,6 +111,7 @@ if (star >= 2) {
 //   console.log('Too Short');
 // }
 
+// ################################
 // Ex.7B : Nested Condition => One Level Condition
 let password = '1234 5678';
 
@@ -113,6 +121,7 @@ if (password.length > 6 && !password.includes('')) {
   console.log('Invalid Password');
 }
 
+// ################################
 // Ex.8 : กินฟรีถ้าต่ำกว่า 10 ขวบ หรือแก่กว่า 65 ขวบ
 let age = 66;
 
