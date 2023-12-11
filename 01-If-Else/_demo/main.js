@@ -113,17 +113,24 @@ if (star >= 2) {
 
 // ################################
 // Ex.7B : Nested Condition => One Level Condition
-let password = '1234 5678';
+// let password = '1234 5678';
 
-if (password.length > 6 && !password.includes('')) {
-  console.log('Valid Password');
-} else {
-  console.log('Invalid Password');
-}
+// if (password.length > 6 && !password.includes('')) {
+//   console.log('Valid Password');
+// } else {
+//   console.log('Invalid Password');
+// }
 
 // ################################
 // Ex.8 : กินฟรีถ้าต่ำกว่า 10 ขวบ หรือแก่กว่า 65 ขวบ
-let age = 66;
+// let age = 66;
+let age = prompt('How old are you!!'); // 'string' | null
+
+// !null => true
+if (!age) throw new Error('ใส่ข้อมูลให้ถูกต้อง');
+
+// let age = +prompt('How old are you!!'); // Number
+// console.log(age);
 
 if (age < 10 || age > 65) {
   console.log('ได้รับสิทธิ์ ทานฟรี');
